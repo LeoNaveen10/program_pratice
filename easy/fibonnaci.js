@@ -22,7 +22,7 @@ function printFibo(n){
     let c, a =0 , b=1;
     console.log(a , b);
     for(let i=2;i<n;i++){
-       [a,b] = [b, a+b];
+       [a,b] = [b, a+b]; //swap
     //    console.log(a+b);
     }
 }
